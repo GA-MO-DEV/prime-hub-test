@@ -20,8 +20,8 @@ Then the total is 107.00 THB including VAT
 ### AC-02 Coupon before VAT
 - priority: must
 - money: yes
-- hash: "544e6607"
+- hash: "806ec7a7"
 
-Given a coupon SAVE10 on a cart of 100.00 THB
+Given a coupon SAVE15 on a cart of 100.00 THB
 When the coupon is applied
-Then the total is 96.30 THB including VAT
+Then the total is 90.95 THB including VAT
